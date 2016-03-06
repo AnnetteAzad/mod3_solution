@@ -13,13 +13,6 @@ body
 	border: 0;
 }
 
-#logo-img
-{
-	background:url('../images/restaurant-logo_large.png');
-	width: 150px;
-	height: 150px;
-	margin-right: 10px 15px 10px 0px;
-}
 
 .navbar-brand
 {
@@ -58,19 +51,6 @@ body
   font-size: 1.8em;
 }
 
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -83,7 +63,12 @@ body
 /* Large Devices*/
 /* Small Devices */
 @media (min-width: 1200px)
-{}
+{
+	.jambatron
+	{
+		background:;
+	}
+}
 
 /* Medium Devices */
 @media (min-width: 992px) and (max-width: 1199px)
@@ -106,4 +91,71 @@ body
 {
 	font-size: 1em;
 	margin-right: 5px;
+}
+
+h2
+{
+	font-family: 'Lora',serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform:capitalize;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 5;
+	margin-bottom: 0;
+	line-height: 0.75;
+	text-align: center;
+}
+
+h3
+{
+	font-family: 'Lora',serif;
+	font-size: 1.3em;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#home-tiles
+{
+	  width: 100%;
+	  margin-bottom: 15px;
+	  margin-top: 70px;
+	  position: relative;
+	  align-self: center;
+	  border: 2px solid #3F0C1F;
+	  overflow: hidden;
+	  background-color: #F2D391;
+}
+
+#home-tiles #Chicken
+{  
+	  margin-top: 20px;
+	  position: relative;
+	  border: 2px solid #3F0C1F;
+	  overflow: hidden; 
+}
+
+#home-tiles #Beef
+{	 
+	  margin-top: 20px;
+	  position: relative;
+	  border: 2px solid #3F0C1F;
+	  overflow: hidden;	  
+}
+
+#home-tiles #Sushi
+{
+	  margin-bottom: 20px;
+	  margin-top: 20px;
+	  position: relative;
+	  border: 2px solid #3F0C1F;
+	  overflow: hidden;
+}
+
+#home-tiles #recipe
+{
+	font-family: 'Lora',serif;
+	font-size: 1.2em;
+	color: #3F0C1F;
 }
